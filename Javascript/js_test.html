@@ -183,11 +183,15 @@ $('#clickEventLink').on('click', function(){
 //Ajax
 var requestSettings = {
 	method: 'GET',
-	url: 'ajax_retrun.html'
+	url: '/ajax',
+	data: JSON.stringify({name:'name', value:'value'}),
+	contentType:'application/json'
 }
 
-$.ajax(requestSettings).done(function(responseData){
-	$('#jsonResponse').append(responseData)
+$.ajax(requestSettings).done(function(data){
+	console.log(data)
+
+	$('#jsonResponse').append(data)
 })
 
 </script>
