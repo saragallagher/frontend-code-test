@@ -171,7 +171,13 @@ $('select').change(function(){
 var $width = $('#setDims').innerWidth()
 var $height = $('#setDims').innerHeight()
 
-$('#setDims').append('Width: '+$width+ ' Height: '+ $height)
+$('#setDims').append(' Width: '+$width+ ' Height: '+ $height)
+
+//Events
+
+$('#clickEventLink').on('click', function(){
+	$(this).toggleClass('clicked')
+})
 </script>
 </body>
 </html>
