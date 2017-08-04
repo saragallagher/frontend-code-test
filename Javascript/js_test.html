@@ -158,7 +158,13 @@ $('#content ul li').last().css({color:'red'})
 $('#content2 ul:first-child').css({color:'blue'})
 $('#content2 ul:first-child').last().css({color:'black'})
 
+//Get a Field value and Write it to the Page
+$('fieldset').append('<div class="codeType"></div>')
 
+$('select').change(function(){
+	var $codeType = $('select option:selected').val()
+	$('div.codeType').text($codeType)
+})
 </script>
 </body>
 </html>
