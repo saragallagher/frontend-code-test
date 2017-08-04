@@ -165,6 +165,13 @@ $('select').change(function(){
 	var $codeType = $('select option:selected').val()
 	$('div.codeType').text($codeType)
 })
+
+//Find Dimensions of and Element
+
+var $width = $('#setDims').innerWidth()
+var $height = $('#setDims').innerHeight()
+
+$('#setDims').append('Width: '+$width+ ' Height: '+ $height)
 </script>
 </body>
 </html>
