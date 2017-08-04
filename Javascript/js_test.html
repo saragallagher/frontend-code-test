@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" charset="utf-8"></script>
+
 	<!-- <script>jQuery.noConflict();</script> -->
 	<style>
 		body{
@@ -178,6 +179,17 @@ $('#setDims').append(' Width: '+$width+ ' Height: '+ $height)
 $('#clickEventLink').on('click', function(){
 	$(this).toggleClass('clicked')
 })
+
+//Ajax
+var requestSettings = {
+	method: 'GET',
+	url: 'ajax_retrun.html'
+}
+
+$.ajax(requestSettings).done(function(responseData){
+	$('#jsonResponse').append(responseData)
+})
+
 </script>
 </body>
 </html>
