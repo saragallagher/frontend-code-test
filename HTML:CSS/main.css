@@ -1,0 +1,107 @@
+.contact-account{
+  padding-right: 20px;
+  text-align:right;
+}
+
+.contact-account a{
+  color: black;
+  padding: 20px;
+}
+
+.contact-account img{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.top-nav{
+  padding: 15px;
+}
+
+.right-options{
+  float: right;
+}
+
+.right-options a{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+/**********************************************************/
+
+.bottom-nav{
+  width: 100%;
+  margin-top: 40px;
+  height: 50px;
+  background: #8e8e8e;
+}
+.bottom-nav a{
+  margin: 0px;
+  padding: 50px;
+  color: white;
+}
+.bottom-nav button{
+  padding-right: 65px;
+  text-align: center;
+}
+/**********************************************************/
+
+.header{
+  background-color: lightgrey;
+}
+.header img{
+  height: 300px;
+}
+.contact-social{
+  padding: 20px 20px 20px 55px;
+  display: inline-block;
+}
+.contact-info{
+  padding: 60px;
+  display: inline-block;
+}
+
+/**********************************************************/
+
+ol li{
+  list-style: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 20px 50px 30px 50px;
+}
+/**********************************************************/
+
+p{
+  width: 500px;
+  display: inline-block;
+}
+
+.info-section{
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.aside{
+  display: inline-block;
+  float: right
+}
+
+/**********************************************************/
+
+.footer{
+  background: teal;
+  color: white;
+  height: 50px;
+}
+.left-footer{
+  display: inline-block;
+}
+.right-footer a{
+  color: white;
+}
+.right-footer{
+  float: right;
+}
