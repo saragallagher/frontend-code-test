@@ -17,24 +17,24 @@
     <div class="logo col-md-2">
       <img src="./Assets/SVGs/TEN-logo.svg" alt="">
     </div>
-    <div class="top-nav col-md-10">
-    <div class="right-options">
 
-      <a href="#">SEARCH</a>
+    <div class="right-options hidden-sm hidden-xs ">
+
+      <a  href="#">SEARCH</a>
       <a href="#">COMMUNITIES</a>
       <a href="#">SERVICES</a>
       <a href="#">ABOUT US</a>
-    </div>
-  </div>
 
-<!-- <div class="container"> -->
+    </div>
+
+
   <div  class="bottom-nav">
     <div class="container">
-      <input class="col-md-2" type="text" name="" value="" placeholder="Address, City, Zip or MLS#">
-      <button class="col-md-2">SEARCH</button>
-      <a class="col-md-2" href="#">NEW LISTINGS</a>
-      <a class="col-md-2" href="#">OPEN HOUSES</a>
-      <a class="col-md-2" href="#">MAP SEARCH</a>
+      <input class="col-md-2 " type="text" name="" value="" placeholder="Address, City, Zip or MLS#">
+      <button class="col-md-2 hidden-sm hidden-xs">SEARCH</button>
+      <a class="col-md-2 hidden-sm hidden-xs" href="#">NEW LISTINGS</a>
+      <a class="col-md-2 hidden-sm hidden-xs" href="#">OPEN HOUSES</a>
+      <a class="col-md-2 hidden-sm hidden-xs" href="#">MAP SEARCH</a>
 
     </div>
   </div>
@@ -67,42 +67,46 @@
   </div>
   <div class="container">
     <div class="info-section-nav">
-        <button>About Me</button>
-        <button>My Listings</button>
-        <button>My Solds</button>
-        <button>Testimonials</button>
+        <button id="about" class="hidden-sm hidden-xs">About Me</button>
+        <button class="hidden-sm hidden-xs">My Listings</button>
+        <button class="hidden-sm hidden-xs">My Solds</button>
+        <button class="hidden-sm hidden-xs">Testimonials</button>
+
+        <select class="visible-sm-* hidden-md hidden-lg" name="">
+          <option value="">About Me</option>
+          <option value="">My Listings</option>
+          <option value="">My Solds</option>
+          <option value="">Testimonials</option>
+        </select>
     </div>
     <div id="about-me" class="info-section">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="aside col-md-4">
-        LANGUAGE <br>
+      <p class="col-md-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="aside col-md-3">
+        <strong>LANGUAGE</strong> <br>
         Dutch, Finnish, Spanish <br>
-        DESIGNTATIONS<br>
+        <strong>DESIGNTATIONS</strong><br>
         CRS, GRL, CNE
 
       </div>
     </div>
-    <div id="my-listings" class="info-section">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-    <div id="my-solds" class="info-section">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-    <div id="testimonials" class="info-section">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-  </div>
 
   </div>
   <div class="footer">
     <div class="container">
 
       <div class="left-footer">
-        1-800-234-4567
+        <img src="./Assets/SVGs/contact.svg" alt=""> 1-800-234-4567
         <br>
         5678 Main Street, Denver, CO 80123
+        <br>
+        <div class="social-footer">
+
+          <img src="./Assets/SVGs/facebook.svg" alt="">
+          <img src="./Assets/SVGs/linkedin.svg" alt="">
+          <img src="./Assets/SVGs/twitter.svg" alt="">
+          <img src="./Assets/SVGs/youtube.svg" alt="">
+          <img src="./Assets/SVGs/instagram.svg" alt="">
+        </div>
       </div>
       <div class="right-footer">
       <a href="#">Site Map</a>
@@ -114,10 +118,6 @@
     </div>
     </div>
   </div>
-<!-- </div> -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" charset="utf-8"></script>
-<script src="main.js" charset="utf-8"></script>
 
   </body>
 </html>
