@@ -1,3 +1,4 @@
+
 .contact-account{
   padding-right: 20px;
   text-align:right;
@@ -40,37 +41,69 @@
 }
 .bottom-nav a{
   margin: 0px;
-  padding: 50px;
+  /*padding: 50px;*/
   color: white;
 }
+
+.bottom-nav input{
+  font-size: 12px;
+  width: 200px;
+  margin-right: 20px;
+}
+
 .bottom-nav button{
-  padding-right: 65px;
+  width: 150px;
+  background-color: teal;
+  color: white;
   text-align: center;
+  border: none;
 }
 /**********************************************************/
 
 .header{
   background-color: lightgrey;
+  display: inline-block;
+  width: 100%;
 }
-.header img{
-  height: 300px;
+
+.profile-img{
+  display: inline-block;
 }
 .contact-social{
-  padding: 20px 20px 20px 55px;
   display: inline-block;
+  margin-top: 30px;
+}
+.contact-social button{
+  background-color: teal;
+  color: white;
+  text-align: center;
+  border: none;
+  width: 80%
+}
+.contact-social img{
+  display: inline-block;
+  padding: 9px;
+  margin: auto 0;
 }
 .contact-info{
-  padding: 60px;
   display: inline-block;
+  margin-top: 50px;
+}
+.contact-info img{
+  display: inline-block;
+  padding: 5px;
+  margin: auto 0;
 }
 
 /**********************************************************/
 
-ol li{
-  list-style: none;
-  font-size: 20px;
+.info-section-nav button{
   display: inline-block;
-  padding: 20px 50px 30px 50px;
+  border: none;
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  border-bottom: 1px solid teal;
 }
 /**********************************************************/
 
@@ -93,6 +126,7 @@ p{
 
 .footer{
   background: teal;
+  width: 100%;
   color: white;
   height: 50px;
 }
@@ -105,3 +139,5 @@ p{
 .right-footer{
   float: right;
 }
+
+/**********************************************************/
